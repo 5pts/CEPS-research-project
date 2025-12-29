@@ -1,0 +1,14 @@
+研究主题可视化与处理报告
+主题：学校社会资本对不同家庭背景学生教育期望的补偿效应
+
+Bonding SC 变量（存在的）: w2c11a, w2c09a, w2c09b
+Bridging SC 变量（存在的）: w2c12, w2c14a, w2c14b, w2c22a, w2c22b
+SES 变量（存在的）: w2a0603
+户籍变量: 未找到
+教育期望变量: w2c12
+
+bonding_sc_idx 缺失: 5711（53.13%）
+bridging_sc_idx 缺失: 891（8.29%）
+ses_idx 缺失: 5091（47.36%）
+hukou_cat 缺失: 10750（100.00%）
+expect_univ_bin 缺失: 7127（66.30%）

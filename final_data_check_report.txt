@@ -1,0 +1,58 @@
+
+--- 1. Basic Shape ---
+Rows: 9827
+Columns: ['ids', 'clsids', 'schids', 'expect_college', 'expect_edu_raw', 'bonding_idx', 'teacher_praise', 'teacher_talk', 'bridging_idx', 'ses_self', 'hukou_type', 'cog_score']
+
+--- 2. ID Uniqueness ---
+Unique IDs: 9827
+[PASS] IDs are unique.
+
+--- 3. Missing Values Check ---
+teacher_talk: 170 missing (1.73%)
+teacher_praise: 11 missing (0.11%)
+[PASS] Target 'expect_college' has 0 missing values.
+Distribution of expect_college:
+expect_college
+1.0    0.679048
+0.0    0.320952
+Name: proportion, dtype: float64
+
+--- 4. Key Predictors Check ---
+ses_self: 0 missing
+bonding_idx: 0 missing
+teacher_praise: 11 missing
+teacher_talk: 170 missing
+cog_score: 0 missing
+
+--- 5. Linkage Columns ---
+[PASS] Linkage key 'clsids' is present.
+[PASS] Linkage key 'schids' is present.
+
+--- 6. Missingness Health Check ---
+teacher_praise (missing rate 0.11%)
+  - ses_self: mean diff 330.989 (missing mean 1137.065, non-missing mean 806.076)
+  - schids: mean diff 14.079 (missing mean 73.727, non-missing mean 59.648)
+  - cog_score: mean diff -4.775 (missing mean 18.091, non-missing mean 22.866)
+teacher_talk (missing rate 1.73%)
+  - ses_self: mean diff -240.841 (missing mean 569.772, non-missing mean 810.613)
+  - schids: mean diff 9.399 (missing mean 68.900, non-missing mean 59.501)
+  - cog_score: mean diff -4.031 (missing mean 18.900, non-missing mean 22.931)
+Heuristic flags (potentially non-random missingness):
+- teacher_praise vs ses_self: mean gap 330.989
+- teacher_praise vs schids: mean gap 14.079
+- teacher_praise vs cog_score: mean gap -4.775
+- teacher_talk vs cog_score: mean gap -4.031
+
+--- 6b. Missingness Impact Summary ---
+[PASS] Overall missingness across key predictors is low (1.84%). Impact on conclusions is likely limited.
+
+--- 7. Visualization Checks ---
+PNG files found: 38
+[PASS] Decision_Tree_Thresholds.png: FOUND (ClaudeFig\Decision_Tree_Thresholds.png, figures\ml_insights\Decision_Tree_Thresholds.png)
+[PASS] GAM_Bonding_Partial_Dependence.png: FOUND (ClaudeFig\GAM_Bonding_Partial_Dependence.png, figures\ml_insights\GAM_Bonding_Partial_Dependence.png)
+[PASS] GAM_Bridging_Partial_Dependence.png: FOUND (ClaudeFig\GAM_Bridging_Partial_Dependence.png, figures\ml_insights\GAM_Bridging_Partial_Dependence.png)
+[PASS] Interaction_Bonding_SES.png: FOUND (ClaudeFig\Interaction_Bonding_SES.png, figures\ml_insights\Interaction_Bonding_SES.png)
+[PASS] bonding_expect_by_SES.png: FOUND (ClaudeFig\bonding_expect_by_SES.png, figures\bonding_expect_by_SES.png)
+[FAIL] bonding_expect_by_hukou.png: MISSING
+[PASS] bonding_vs_expect_prob.png: FOUND (ClaudeFig\bonding_vs_expect_prob.png, figures\bonding_vs_expect_prob.png)
+[PASS] bridging_vs_expect_prob.png: FOUND (ClaudeFig\bridging_vs_expect_prob.png, figures\bridging_vs_expect_prob.png)

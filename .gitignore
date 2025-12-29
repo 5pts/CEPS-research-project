@@ -1,0 +1,26 @@
+# Data Files (Large/Binary)
+*.dta
+*.zip
+*.rar
+*.parquet
+*.sav
+
+# Python / Environment
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+.trae/
+
+# Logs & Temp
+*.log
+*.tmp
+
+# Legacy Archives (Optional: exclude if too large, keeping for now as they are organized)
+# legacy_archive/cleaned/*.parquet
