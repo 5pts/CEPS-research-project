@@ -1,0 +1,57 @@
+=== Pure GEE Model Summary (Binomial / Exchangeable) ===
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:             expect_univ_bin   No. Observations:                 9827
+Model:                                 GEE   No. clusters:                      112
+Method:                        Generalized   Min. cluster size:                  19
+                      Estimating Equations   Max. cluster size:                 160
+Family:                           Binomial   Mean cluster size:                87.7
+Dependence structure:         Exchangeable   Num. iterations:                    12
+Date:                     Tue, 30 Dec 2025   Scale:                           1.000
+Covariance type:                    robust   Time:                         15:35:16
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       -1.1966      0.120    -10.005      0.000      -1.431      -0.962
+bonding_idx      0.1657      0.020      8.400      0.000       0.127       0.204
+bridging_idx     0.0037      0.024      0.157      0.876      -0.043       0.051
+ses_idx          0.0001   2.52e-05      4.132      0.000    5.47e-05       0.000
+hukou_num        0.0561      0.044      1.265      0.206      -0.031       0.143
+cog_score        0.0818      0.005     16.853      0.000       0.072       0.091
+==============================================================================
+Skew:                         -0.6673   Kurtosis:                      -1.1080
+Centered skew:                -0.5495   Centered kurtosis:             -0.8898
+==============================================================================
+
+=== Interaction Model Summary ===
+                               GEE Regression Results                              
+===================================================================================
+Dep. Variable:             expect_univ_bin   No. Observations:                 9827
+Model:                                 GEE   No. clusters:                      112
+Method:                        Generalized   Min. cluster size:                  19
+                      Estimating Equations   Max. cluster size:                 160
+Family:                           Binomial   Mean cluster size:                87.7
+Dependence structure:         Exchangeable   Num. iterations:                    12
+Date:                     Tue, 30 Dec 2025   Scale:                           1.000
+Covariance type:                    robust   Time:                         15:35:16
+=======================================================================================
+                          coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+Intercept              -1.1998      0.119    -10.071      0.000      -1.433      -0.966
+bonding_idx             0.1479      0.026      5.688      0.000       0.097       0.199
+ses_idx                 0.0001   2.51e-05      4.224      0.000    5.68e-05       0.000
+bonding_idx:ses_idx  2.377e-05   1.91e-05      1.247      0.212   -1.36e-05    6.11e-05
+bridging_idx            0.0056      0.024      0.231      0.818      -0.042       0.053
+hukou_num               0.0563      0.044      1.271      0.204      -0.030       0.143
+cog_score               0.0818      0.005     16.876      0.000       0.072       0.091
+==============================================================================
+Skew:                         -0.6662   Kurtosis:                      -1.1115
+Centered skew:                -0.5484   Centered kurtosis:             -0.8932
+==============================================================================
+
+=== Random Forest Feature Importance ===
+cog_score       0.624284
+bonding_idx     0.165213
+ses_idx         0.161191
+bridging_idx    0.045101
+hukou_num       0.004211

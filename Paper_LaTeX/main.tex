@@ -1,0 +1,87 @@
+% !TEX program = xelatex
+% 使用官方 APA7 文档类 (stu = 学生论文，符合双倍行距标准)
+\documentclass[stu, 12pt, floatsintext]{apa7}
+
+% =============================================
+% English support and fonts
+% =============================================
+\usepackage[american]{babel}
+\usepackage{csquotes}
+\DeclareLanguageMapping{american}{american-apa}
+\usepackage{newtxtext,newtxmath} % 使用类 Times New Roman 字体
+
+% =============================================
+% 参考文献配置 (APA 7th 标准)
+% =============================================
+\usepackage[style=apa, sortcites=true, sorting=nyt, backend=biber]{biblatex}
+\addbibresource{references.bib} % 加载参考文献文件
+
+% =============================================
+% 其他常用宏包
+% =============================================
+\usepackage{graphicx}  % 图片
+\usepackage{booktabs}  % 三线表
+\usepackage{float}     % 图片位置
+
+% =============================================
+% 论文元数据 (Metadata)
+% =============================================
+\title{Your Paper Title Here}
+% APA 7 student papers do not use a running head
+\author{Your Name}
+\affiliation{Your Institution}
+\course{Course Name}
+\professor{Instructor Name}
+\duedate{Due Date}
+
+% 摘要
+\abstract{
+    Write the abstract here. In APA format, the abstract should not be indented.
+    
+    This study uses CEPS data and a GEE model to test whether school social capital compensates for family disadvantage...
+}
+
+\keywords{school social capital, educational expectations, compensatory effect, CEPS}
+
+\begin{document}
+
+% 生成封面
+\maketitle
+
+% =============================================
+% 正文区域 (自动双倍行距)
+% =============================================
+
+\section{Introduction}
+Start the main text here. The double spacing is automatically applied by the APA class.
+
+\section{Literature Review}
+Prior research on social capital is discussed in \parencite{coleman1988social}. Related work is also reviewed by \textcite{liu2015school}.
+
+\section{Data and Methods}
+\subsection{Data Source}
+This study uses CEPS data...
+
+\subsection{Statistical Model}
+We use generalized estimating equations (GEE) for analysis \parencite{liang2017gee}.
+
+\section{Results}
+The results show...
+
+% 插入图片示例
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/interaction_plot.png}
+    \caption{Interaction effect of student-teacher relations and family SES}
+    \label{fig:interaction}
+\end{figure}
+
+\section{Discussion}
+This study confirms...
+
+% =============================================
+% 参考文献列表 (自动生成)
+% =============================================
+\printbibliography
+
+\end{document}

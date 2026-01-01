@@ -1,0 +1,1014 @@
+RESEARCH ARTICLE
+Vol 13, N◦1
+https://revistas.usb.edu.co/index.php/IJPR
+ISSN 2011-2084
+E-ISSN 2011-7922Social Support and Academic
+Achievement of Chinese Low-
+Income Children: A Mediation
+Eﬀect of Academic Resilience
+Apoyo social y logro académico de niños chinos de bajos ingresos: un
+efecto de mediación de la resistencia académica
+Guangbao Fang1,2⋆, Philip Wing Keung Chan2, Penelope
+Kalogeropoulos2
+1Jiangxi Normal University, Science and Technology College, Nanchang, Jiangxi,
+China.2Monash University, Faculty of Education, Melbourne, Victoria, Australia
+OPEN ACCESS
+Editor: Jorge Mauricio Cuartas Arias,
+Universidad de San Buenaventura,
+Medellín, Colombia
+Manuscript received: 06-08-2019
+Revised: 15-10-2019
+Accepted: 18-11-2019.
+⋆Corresponding author :
+Guangbao Fang
+guangbao.fang@monash.edu
+Copyright: ©2020. International Journal of
+Psychological Research provides open access to
+all its contents under the terms of the license
+creative commons Attribution-NonCommercial-
+NoDerivatives 4.0 International (CC BY-NC-
+ND 4.0)
+Declaration of data availability: All rele-
+vant data are within the article, as well as the
+information support ﬁles.
+Conﬂict of interests: The authors have de-
+clared that there is no conﬂict of interest.Abstract.
+Using nation-wide survey data (N=2328) from China, this study
+investigates how social support from family, peers, and teachers inﬂuence
+low-income household children’s (from 13 to 15 years old) academic
+resilience, as well as how academic resilience mediates the relationship
+between social support and children’s academic achievement. Structural
+equation modelling was adopted to analyse the data. The results reveal
+that (1) low-income household children’s family, peer, and teacher
+support are associated with their academic resilience; (2) peer support
+and academic resilience of low-income household children signiﬁcantly
+relate with their academic achievements; (3) academic resilience plays
+a full mediation role in teacher support and a partial mediation role in
+peer support on children’s academic achievement. The implications of
+this study on theory and practice, the limitations, and future research
+directions are discussed.
+Resumen.
+Utilizando datos de encuestas a nivel nacional (N = 2328) de China, este
+estudio investiga cómo el apoyo social de la familia, los compañeros y
+los maestros inﬂuyen en la resiliencia académica de los niños de bajos
+ingresos (de 13 a 15 años), así como la resiliencia académica interviene en
+la relación entre el apoyo social y el rendimiento académico de los niños.
+Se adoptó el modelo de ecuaciones estructurales para analizar los datos.
+Los resultados revelan que (1) el apoyo familiar, de pares y de maestros de
+niños de bajos ingresos en el hogar está asociado con su capacidad de
+resilencia académica; (2) el apoyo entre pares y la resilencia académica de
+los niños de hogares de bajos ingresos se relacionan signiﬁcativamente
+con sus logros académicos; (3) la capacidad de resilencia académica
+desempeña un papel de mediación total en el apoyo del maestro y un papel
+de mediación parcial en el apoyo de los compañeros en el rendimiento
+académico de los niños. Se discuten las implicaciones de este estudio en la
+teoría y la práctica, además de las limitaciones y las futuras direcciones de
+investigación.
+Keywords.
+Social support; Academic resilience; Low-income children; Academic achievement
+Palabras Clave.
+apoyo social; resiliencia académica; niños de bajos ingresos; logro académico.
+int.j.psychol.res |doi:10.21500/20112084.4480 19
+Low-Income Children and Academic Resilience
+1. Introduction
+According to the survey of National Bureau of Statis-
+tics of China (NBSC), as to 2017, there were millions
+of children living in poverty in mainland China (NBSC,
+2018). In addition, many studies reported that fam-
+ily’s social economic status (SES) has signiﬁcant impacts
+on children academic performance. For example, two
+meta-analysis studies proved that a family’s SES posi-
+tively inﬂuences academic outcomes of children (Sirin,
+2005; White, 1982). This may infer that compared with
+children who are not at risk, children in economically
+disadvantaged households may have a lower academic
+performance. In the Chinese public education system,
+the junior middle school (Grade 7 to Grade 9) is a transit
+period between primary school and high middle school.
+Grade 7 and Grade 9 are therefore extremely important,
+because in these two grades, students need to learn the
+adaptation to the new period of learning. Thus, under-
+standing how to improve the academic performance of
+children in low-income households in Grades 7 and 9 is
+critically signiﬁcant.
+Resilience oﬀers us a new perspective to understand
+this problem, because it relates to risk and protective
+factors(Luthar, 1991), such as an individual’s traumatic
+experiences, challenges, and ability to cope with diﬃ-
+culties(Masten, 2001). The present study adopts the
+social-ecological framework of academic resilience, inves-
+tigating how social support inﬂuences academic achieve-
+ment, including test scores in mathematics, science, and
+language and whether or not the academic resilience
+mediated this eﬀect.
+Recently, the concept of resilience was deﬁned in a
+holistic approach by introducing the ecological theory of
+human development (Bronfenbrenner, 1979). Based on
+the social-ecological theory, resilience was deﬁned as the
+way individuals gain the capacity to cope with internal
+and external resources and risks (Ungar, Ghazinour, &
+Richter, 2013). Similarly, academic resilience refers to “a
+capacity to overcome acute or chronic adversity that is
+seen as a major threat to a student’s educational devel-
+opment” (Martin, 2013, p. 488). In this study, we adopt
+the deﬁnition of Martin (2013) and extend its meaning
+by adding the resilience in a school context. Masten
+and Coatsworth (1998) suggested that context may in-
+ﬂuence resilience development, and this point is further
+explained by Theron (2008), as the context includes in-
+dividuals, families, and environmental capacities. In line
+with resilience, academic resilience may also be inﬂu-
+enced by factors from individuals, families, peers, and
+schools (Garmezy, 1991).
+Peer support in school plays an essential role when
+children face adverse circumstances (Werner & Ruth,
+1982). Felsman (1989) found the positive eﬀect of peer
+support on students’ resilience and this eﬀect existed
+regardless of students’ age, gender, and their family SES(Stewart & Sun, 2004). In China, six important functions
+of peers were identiﬁed among high school students (age
+16-18 year old), including caring and support in everyday
+life, academic expectations and involvement, spiritual
+encouragement, behavioural discipline, and guidance,
+providing opportunities for meaningful involvement and
+role modelling (H. Li, Bottrell, & Armstrong, 2017). In
+contrast, an Indian study found that when young men
+experienced a high level of peer bullying, this leads to
+a low level of resilience (Narayanan & Betts, 2014). To
+summarise, a high level of peer support may lead to
+a high level of academic resilience (Robinson, Raine,
+Robertson, Steen, & Day, 2015).
+The research also notes that teacher support is a vital
+factor of academic resilience development (Werner, 1990).
+Theron (2016) indicated four key processes of teachers
+facilitating students’ resilience: 1) building warm, re-
+spectful relationships with students; 2) communicating
+achievable and consistent expectations of students; 3)
+regarding students as active and capable agents; 4) de-
+veloping resilience-supporting classroom practice and
+environments. By interviewing students, teachers ac-
+tively participate in regular ‘little things’ in classroom,
+such as listening to students’ views or making themselves
+accessibleto students, which couldalso promote students’
+resilience (Johnson, 2008).
+However, when primary students suﬀered teachers’
+verbalabuse, theyweremorelikelytohavenegativelearn-
+ing experiences toward teachers and react in covert ways,
+suchaskeepingsilentorwithdrawingfromschool (Geiger,
+2017). Similarly, if students have a negative sense of
+school safety and low engagement in the classroom, they
+are more likely to have lower resilience (Sanders, Mun-
+ford, & Liebenberg, 2016; Sanders, Munford, Thimasarn-
+Anwar, Liebenberg, & Ungar, 2015). Students who were
+bullied by teachers or other school staﬀ were more likely
+to report low school engagement and negative experi-
+ences toward school climate (Datta, Cornell, & Huang,
+2017). Thus, teacher support inﬂuences positively stu-
+dents’ academic resilience in schools.
+Family support is another vital factor in proving
+child’s academic resilience. By interviewing 26 children
+and their parents, Taket, Nolan, and Stagnitti (2014)
+ﬁgured out four strategies parents used to develop chil-
+dren’s resilience capacity, including cultivating children’s
+independence ability, promoting children’s competence
+in socio-emotional learning, building supportive relation-
+ships with adults, and using community resources. H. Li
+(2017)suggestedthatstudentswhoobtainedmoreparental
+supervisioninthefamilyandmoreactiveengagementin
+school could change their situations of low school com-
+mitmentandtheirpersonalconﬂictattitude, improving
+theiracademicachievements. Incontrast, young people
+who lack eﬀective parental monitoring and support have
+lower resilience (Sanders et al., 2016, 2015).
+int.j.psychol.res |doi: 10.21500/20112084.4480 20
+Low-Income Children and Academic Resilience
+Academic resilience was found to positively corre-
+late with female students’ academic outcomes (Allan,
+McKenna, & Dominey, 2014). This ﬁnding is echoed by
+Ayala and Manzano (2018), as the impacts of resilience
+on academic performance varies on students’ gender and
+their learning motivations. By conducting longitudinal
+research, Sattler and Gershoﬀ (2019) compared the dif-
+ferences in the impact of three levels of resilience on
+mathematics and literacy achievement among children
+from kindergarten to the 5thgrade in primary school.
+Compared with high-resilient children, non-resilience and
+low-resilience children have signiﬁcantly lower mathemat-
+ical and literacy achievement (Sattler & Gershoﬀ, 2019).
+Among Chinese rural-to-urban migrant adolescents, self-
+resilience signiﬁcantly predicted youths’ positive aca-
+demic emotions (D. Wang, Hu, & Yin, 2017). Based
+on protection theory of resilience, H. Li (2017) found
+students’ academic resilience positively predicted their
+academic performance. These ﬁndings suggest that chil-
+dren’s academic resilience may improve their academic
+outcomes.
+Peer support, family support and teacher support
+also play important roles in improving students’ aca-
+demic outcomes. Exemplifying the former, by using a
+longitudinal social network design, one study found that
+positive peer inﬂuence could improve students’ writing
+and mathematics performance (DeLay et al., 2016). In
+a very recent study, peers were found having a posi-
+tive impact on their friends’ school engagement, such
+as emotional, behavioural, and cognitive engagement in
+the classroom (Liu et al., 2018; M. Wang, Kiuru, Degol,
+& Salmela-Aro, 2018). In contrast, peer victimization
+and peer depression were negatively correlated with chil-
+dren’s academic achievement (Liu et al., 2018). In early
+childhood research, parental rearing beliefs and parental
+practices could act as precursors to and have a posi-
+tive impact on the academic outcomes of children from
+families living in poverty (Liew, Carlo, Streit, & Ispa,
+2018). While both parent support and peer support have
+a signiﬁcant positive eﬀect on academic self-eﬃcacy of
+children who are from a low-income family, the eﬀect of
+parent support, especially parental emotional support, is
+larger than the eﬀect of peer support (Ramirez, Machida,
+Kline,&Huang, 2014). However, parentalengagementin
+schools has no signiﬁcant impact on students’ academic
+outcomes (Ramirez et al., 2014). Further, researchers
+found peer support, which measured as peer threat, has
+no signiﬁcant eﬀect on school performance of students
+who live in a low-income family, whereas teacher sup-
+port has a medium eﬀect on their academic achievement
+(Elias & Haynes, 2008).
+From the above review, we ﬁnd some research gaps
+that exist in the current research. Firstly, most research
+focus on the inﬂuential factors of academic resilience
+and ignore its mediation eﬀect between social support
+and students’ academic performance. Secondly, previ-ous studies were conducted in Western contexts, and
+research seldom focused on the Chinese economically dis-
+advantaged household children. Thus, this study could
+contribute in two ways, by: 1) analysing the impacts
+of multidimensional social support on the academic re-
+silience of children in low-income household; 2) assessing
+the academic resilience mediation eﬀect between social
+support and academic outcomes of Chinese low-income
+household children.
+To clearly describe the whole framework, the follow-
+ing research hypotheses are proposed:
+H1a: Family support may directly impact academic
+achievement of economically disadvantaged children.
+H1b: Family support may directly impact academic
+resilience of economically disadvantaged children.
+H1c: Academic resilience mediates the relationship
+of family support and academic achievement.
+H2a: Peer support may directly impact academic
+achievement of economically disadvantaged children.
+H2b: Peer support may directly impact academic
+resilience of economically disadvantaged children.
+H2c: Academic resilience mediates the relationship
+of peer support and academic achievement.
+H3a: Teacher support may directly impact academic
+achievement of economically disadvantaged children.
+H3b: Teacher support may directly impact academic
+resilience of economically disadvantaged children.
+H3c: Academic resilience mediates the relationship
+of teacher support and academic achievement.
+H4: Resilience may directly impact the academic
+achievement of economically disadvantaged children.
+2. Method
+2.1 Data Resource: China Education Panel Survey
+The present study adopted the data of Chinese Educa-
+tion Panel Survey (CEPS) (2013-2014), accessing from
+(https://ceps.ruc.edu.cn/), which focuses on Chinese sec-
+ondary school students who are in grade 7 and grade
+9 (year 13-15), including 1216 male (52.2%), 1068 fe-
+male (45.9%), while 44 students did not provide their
+gender information. This survey aims at obtaining rela-
+tively comprehensive information on Chinese secondary
+education from multiple perspectives, such as students,
+parents, homeroom teachers, subject teachers, and school
+administrators. The CEPS uses a stratiﬁed, multi-stage
+sampling technique wherein 28 districts from a popula-
+tion of 2870 districts were chosen. From each of these 28
+districts, four schools were selected, and four classes of
+grade 7 and grade 9 were randomly selected from each
+school. As a result, approximately 20,000 students in
+448 classrooms of 112 schools were selected in the CEPS.
+This study adopts data from the student perspective.
+Based on the question of ‘What is your family’s current
+economic situation?’ Economically disadvantaged stu-
+int.j.psychol.res |doi: 10.21500/20112084.4480 21
+Low-Income Children and Academic Resilience
+dents (N=2328) were conﬁrmed as those who answered:
+“very poor” or “poor”. This study is conducted based on
+these students’ information.
+2.2 Key Measures and Variable Deﬁnitions
+Academic achievements: all students need to report their
+most recent test scores for mid-term exams in Chinese,
+English, and mathematics. Originally a 150-point score
+in total, each students’ raw score is changed into a stan-
+dard score with standard deviation=70 and mean=10.
+The sampling students’ standardized scores in three sub-
+jects are the dependent variable of this study.
+Metheny, McWhirter, and O’Neil (2008) reviewed
+the existed 17 tools on measuring teacher support on
+students’ perspective and proposed a four-dimensional
+structure of teacher support, which included teachers’
+investment in students’ learning, teachers’ emotional sup-
+port, teachers’ expectations, and teachers’ accessibility
+of students. In CEPS (2013-2014), teacher support was
+assessed on two aspects: how often teachers ask ques-
+tions on subject content and how often teachers praise
+students. Based on Chinese teaching culture, teachers
+asking questions is regarded as one of the strategies
+teachers concerning students’ learning use and could be
+regarded as teachers’ investment in students’ learning.
+Thus, teacher support was assessed on two aspects: in-
+vestment and emotions. In addition, considering the
+diﬀerences of subjects, teacher support was measured
+using six items. Students are required to rate both des-
+criptions on a 4- Likert scale ranging from 1=strongly
+disagree to 4=strongly agree.
+According to Pitzer and Skinner (2017), peer sup-
+port was regarded as the component of supportive class-
+room interactions among peers, including warm relations,
+structural classroom context and supporting autonomy.
+Consistent with this deﬁnition, in the CEPS (2013-2014),
+peer support was examined on two aspects: warm rela-
+tions and structural classroom context using two items.
+It was measured on a 4-Likert scale ranging from 1=
+strongly disagree to 4=strongly agree.
+AccordingtoZimet,Dahlem, Zimet,andFarley(1988)
+as well as (Chou, 2000), family support mainly focuses on
+the supporting willingness, emotional support, decision-
+making support, and the availability of discussing prob-
+lems that children are facing on. In a line with this
+content, family support in CEPS (2013-2014) also covers
+two aspects: emotional support form parent and their
+availability of discussing problems that children have in
+schools. Speciﬁcally, family support was measured using
+four items. Students’ responses to the questions were
+scaled on a 3-Likert format (1=never, 2=sometimes, and
+3=always).
+According to Martin and Marsh (2006) and Martin
+(2013), academic resilience mainly concerns on how stu-
+dents cope with the adversity or diﬃculties within aca-
+demic settings. Then, the measurement of academicresilience focuses on students’ responses to their emo-
+tional issues during learning, academic pressures, or
+some other setbacks within schools (Martin & Marsh,
+2006). Consistent with this method, academic resilience
+in CEPS (2013-2014) concerned on how students tackle
+with the negative emotional response and academic pres-
+sures. Academic resilience was measured on three as-
+pects, including students’ negative feelings toward school
+engagement, emotional issue, and academic pressure
+using three items. All these items were examined on
+4-Likert scales (1=strongly disagree, 4=strongly agree).
+2.3 Data Analysis
+The normality of these four constructs is tested. Based
+on the suggestion of Hair, Black, Babin, Anderson, and
+Tatham (2010), a skewness-kurtosis test is conducted
+to assess whether the data follows the rule of normal
+distribution. The values of skewness and kurtosis range
+from-1.133to.496, andfrom-1.446to2.186, respectively,
+which follow the rule of (Kline, 2010) that the values be
+within the ranges of |3| and |8|.
+In this study, it was used the Partial Least Squares
+Structural Equation Modelling (PLS-SEM), which is a
+non-parametric test and is adopted to analyse the data
+by using SmartPLS3.0 (Ringle, Wende, & Becker, 2015)
+with several considerations. First, PLS-SEM is a compli-
+cated model that includes multiple independent variables
+and mediated variables, and has been shown to be ca-
+pable of assessing parameters of complex models (Hair,
+Hult, Ringle, & Sarstedt, 2017). It allows enormous
+ﬂexibility on the number of items of the construct and
+the measurement scales. Second, because the majority of
+constructs in this study were assessed by diﬀerent scale
+criteria, there might be measure errors or systematic
+errors. This requires rigorous computation of param-
+eters which the PLS-SEM meets (Chin, 2010). Last,
+academic resilience is always treated as an entity rather
+than divided into diﬀerent components. Thus, in this
+study we are trying to explore the theory rather than
+conﬁrm it. As such, the PLS-SEM is regarded as the
+most suitable data analysis technique for our study.
+More speciﬁcally, two-steps analysing procedures are
+conducted to examine model hypotheses. First, we use
+the PLS algorithm technique for testing the outer model
+and its reliability and validity. Then, the bootstrapping
+technique is conducted to conﬁrm the structural model
+relationships as well as compute the eﬀect size of each
+path by using the blindfolding technique (Hair, Sarstedt,
+Hopkins, & Kuppelwieser, 2014).
+3. Results
+3.1 Measurement Model Assessment
+To test the measurement model’s reliability and vali-
+dity, the Cronbach’s alpha, composite reliability (CR),
+average variance extracted (AVE), and discriminant va-
+int.j.psychol.res |doi: 10.21500/20112084.4480 22
+Low-Income Children and Academic Resilience
+lidity are estimated. Table 1 shows the results from the
+SmartPLS3.0.
+Table 1
+Measurement model assessment
+Convergent validity
+Constructs Item LoadingsAVE CRCronbach’s
+Alpha
+Family
+supportb24a4 .83.695 .901 .854
+b24a5.849
+b24b4.821
+b24b5.834
+Peer
+support c1706.835.713 .832 .598
+c1708.854
+Teacher
+supportc1304.771.638 .914 .886
+c1305.778
+c1306.779
+c1307.824
+c1308.818
+c1309.821
+Academic
+resiliencea1201.642 .6 .816.661
+a1202 .83
+a1203.837
+Academic
+achieve-
+mentChinese.848.755 .902 .839
+English.909
+Math.849
+As outlined in Table 1, only the factor loading of
+item ’a1201’ is below .7, so it seems this item needs to
+be deleted (Hair, Ringle, & Sarstedt, 2011). However,
+all constructs’ value of AVE is over .5 and all constructs’
+value of CR is over .7, thus, in this study, we keep this
+item in the resilience. As to Cronbach’s alpha, its value
+ranges from nearly .6 to .886, and four constructs’ alpha
+values are below .7 (Nunnally & Bernstein, 1994). How-
+ever, we cannot conclude that we get a weak reliability
+of these constructs because (1) the Cronbach’s alpha is
+too sensitive to the number of items in each construct
+and (2) the CR estimated the combined reliability of all
+items to the latent variables and its values (all over .7)
+show good reliability of each construct.
+If the square roots of the AVE of each construct is
+over the correlation coeﬃcients of two constructs, then
+we can conﬁrm the construct has good discriminant
+validity(Fornell & Larcker, 1981). As shown in Table
+2, all constructs’ discriminant validity meet this rule,
+which reveals a reasonable discriminant validity for the
+constructs.It is proposed that the standardized root means
+square residuals (SRMR) and NFI are two indicators of
+the model ﬁt to assess to what extent the data ﬁts the
+model in SmartPLS3.0 (Henseler, Hubona, & Ray, 2016).Table 2
+Discriminant validity assessment
+AA FS PS R TS
+Academic
+achievement (AA) .870
+Family support (FS) .033.829
+Peer support (PS) .132 .176 .844
+Academic resilience (R) .147 .146 .189 .775
+Teacher support (TS) .081.25.272 .216 .796
+In this study, the SRMR=.064 is less than 0.1 (Hu &
+Bentler, 1995a) and NFI=.705 is less than the suggested
+.8(Hu & Bentler, 1995b). Thus, basically, this is a ﬁtted
+model.
+3.2 Structural Model Assessment
+Using the bootstrapping technique with 1000 re-
+samples, the path coeﬃcients in this model are estimated,
+as shown in Table 3. Besides the hypothesis of H1aand
+H3a, all the other hypothesis paths are signiﬁcantly sup-
+ported. Students’ perception of academic resilience is
+signiﬁcantly impacted by teacher support ( β=.16), peer
+support (β=.131), and family support ( β=.083). The
+result also reveals that students’ academic achievements
+are signiﬁcantly inﬂuenced by peer support ( β=.102) and
+academic resilience ( β=.123).
+Table 3
+Structural model assessment
+Hypothesis pathwayPath
+coeﬃcientT-value Result
+H1a: family support ->
+academic achievement-.01 .424Not
+supported
+H1b: family support ->
+academic resilience.083 3.771*** Supported
+H2a: peer support -> aca-
+demic achievement.102 4.197*** Supported
+H2b: peer support -> aca-
+demic resilience.131 5.443*** Supported
+H3a: teacher support ->
+academic achievement.029 1.19Not
+supported
+H3b: teacher support ->
+academic resilience.166.642*** Supported
+H4: academic resilience ->
+academic achievement.123 5.439*** Supported
+Note.***p<.001
+To test the mediation eﬀect of academic resilience, we
+adopt Chin (2010)’s two-steps bootstrapping procedures.
+The eﬀects, ﬁrstly, between family support, peer support,
+and teacher support and academic achievement without
+the mediator variable are assessed (see the section of
+Direct eﬀects without mediator in Table 4). The results
+indicate that academic achievement has a signiﬁcant re-
+lationship between peer support ( β=.119) and teacher
+support(β=.065). However, therelationshipbetweenfa-
+int.j.psychol.res |doi: 10.21500/20112084.4480 23
+Low-Income Children and Academic Resilience
+milysupportandacademicachievementisnotsigniﬁcant.
+Then, we add academic resilience as the mediator
+variable and the three coeﬃcients of family support, peer
+support, teacher support, and academic achievement
+are declined. As shown in Table 3 and Table 4, the
+relationship between peer support and academic achieve-
+ment is still signiﬁcant, declined from .119 to .102, but
+the relationship between teacher support and academic
+achievement changes into insigniﬁcant, the coeﬃcient de-
+clined from .065 to .029. Meanwhile, all indirect eﬀects
+between family support, peer support, teacher support,
+and academic achievement are supported. Thus, we
+conclude that academic resilience has a partial medi-
+ated eﬀect between peer support, family support and
+academic achievement and has a full mediated eﬀect
+between teacher support and academic achievement.
+ThestructuralrelationsarepresentedintheFigure1.
+Figure 1. Structural model relations.
+4. Discussions
+4.1 The Direct and Indirect Eﬀects of Peer Support
+This study reveals that peer support has a positive eﬀect
+on low-income household children’s academic resilience.
+This ﬁnding is consistent with some existing research
+conducted in the western context that, when students get
+strong support from their friends, they are more likely
+to have a high level of academic resilience (Robinson et
+al., 2015; Stewart & Sun, 2004). However, the ﬁnding
+is inconsistent with an investigation in China by C. Li,
+Zhang, and Li (2008) who found no signiﬁcant eﬀect
+between peer social capital and resilience. One possible
+reason is the diﬀerence in deﬁning the construct of peer
+support. In our study, we assess two aspects of peer
+support –friendly to individuals and good for learning–
+while, in Li et al.’s research, they measured peer capital
+on both positively and negatively aspects.
+Peer support also shows a positive impact on stu-
+dents’ academic outcome, in agreement with the study
+of Ramirez et al. (2014) but against the ﬁnding of EliasTable 4
+Mediation eﬀect results
+Hypothesis pathwayPath
+coeﬃcientT-value Result
+Direct eﬀects with-
+out mediator
+family support -> aca-
+demic achievement.042 .833Not
+supported
+peer support -> aca-
+demic achievement.119 5.530*** Supported
+teacher support -> aca-
+demic achievement.065 3.139** Supported
+Indirect eﬀects
+H1c: family support -
+>academic resilience ->
+academic achievement.01 3.151** Supported
+H2c: peer support -
+>academic resilience ->
+academic achievement.016 3.672*** Supported
+H3c: teacher support -
+>academic resilience ->
+academic achievement.02 4.023*** Supported
+Note.***p<.001, **p<.01
+and Haynes (2008). This disagreement may be because
+(Elias & Haynes, 2008) measured peer support by focus-
+ing on peer threat. They used items with a negative
+tone, for instance, “do you get picked on and teased by
+your friends?” or “do you feel left out by your friends?”
+(p. 480).
+By regarding academic resilience as a mediator, the
+impact of peer support to low-income household chil-
+dren’s academic achievement remains signiﬁcant, which
+means academic resilience, has a partial mediation ef-
+fect on this relationship. Thus, we may conclude that
+peer support has a positive eﬀect on children’s academic
+achievement, partially through increasing children’s aca-
+demic resilience. This ﬁnding could contribute to the
+development of the theory of how peer support improves
+children’s academic outcomes by raising their academic
+resilience.
+4.2 TheDirectandIndirectEﬀectsofFamilySupport
+This study echoes the prevalent conclusion that family
+support has a positive eﬀect on children’s academic re-
+silience, irrespective of their family’s economic status
+(C. Li, Zhang, & Li, 2018; Sanders et al., 2015). However,
+it is interesting that family support has no signiﬁcant
+impact on academic outcome of those from a low-income
+family and this result is inconsistent with some other
+studies(Liew et al., 2018; Ramirez et al., 2014). There
+are two possible reasons for this. First, according to the
+code theory (Bernstein, 1962), low-income families are
+more likely to use restricted code to express some simple
+opinions and the understanding of their speech relies on
+their speciﬁc context, while the middle and upper-class
+int.j.psychol.res |doi: 10.21500/20112084.4480 24
+Low-Income Children and Academic Resilience
+families always use the elaborated code, which includes
+complete and relatively complicated meanings. The elab-
+orated code is more powerful than a restricted code in
+expressing someone’s thoughts and does not depend on
+the speciﬁc context. In the school context, teachers pre-
+fertousetheelaboratedcodetotransferknowledge, thus,
+the working-class or low-income family’s children cannot
+engage in school education as eﬀectively as those from
+the middle or upper-class family. Second, the Chinese
+culture may inﬂuence parents’ emotional engagement
+in children’s learning. For instance, an experimental re-
+search revealed that, compared with the USA parent, the
+Chinese parent shows a low level of emotional intensity
+and low emotional experience (Davis et al., 2012). This
+means the Chinese parent is not good at expressing their
+emotions in their daily life. This eﬀect may inﬂuence
+family support having no signiﬁcant impact on children’s
+academic achievement in the Chinese context.
+4.3 The Direct and Indirect Eﬀects of Teacher
+Support
+Our study is consistent with the existing ﬁndings that
+teacher support could improve students’ academic re-
+silience(Johnson, 2008; Werner, 1990). Furthermore,
+thisstudyconﬁrmedthat, ifchildrenfromthelow-income
+family gain more praise from their teachers, they are
+more likely to have a high capacity for coping with
+adverse conditions (Sanders et al., 2016). It is interest-
+ing to note that academic resilience fully mediated the
+eﬀect of teacher support on children’s academic achieve-
+ment. This means before adding the academic resilience,
+teacher support signiﬁcantly impact children’s academic
+outcomes; however, this eﬀect changes to insigniﬁcant af-
+ter we added the teacher support as the mediator. Based
+on this ﬁnding, we suggest teacher support may have
+a positive impact on low-income children’s academic
+achievement but through inﬂuencing the children’s aca-
+demic resilience.
+4.4 Academic Resilience and Low-income Children’s
+Academic Achievement
+This study’s ﬁndings are consistent with many current
+ﬁndings that academic resilience has a positive eﬀect
+on children’s academic achievement, regardless of family
+economicstatus (Sattler&Gershoﬀ, 2019; D.Wangetal.,
+2017). In addition, though, there are two new ﬁndings:
+academic resilience partially mediated the eﬀect of peer
+support and fully mediated the eﬀect of teacher support.
+In another recent study, academic resilience mediated
+the eﬀects of social support on educational aspiration
+and plan to drop out, and of family support on academic
+eﬀort and plan to drop out (Wu, Tsang, & Ming, 2014).
+Our study complements these ﬁndings in two aspects: 1)
+we measure academic achievement directly using English,
+Chinese, and mathematics testing scores; 2) we prove
+the eﬀects of peer support and teacher support.4.5 Implications of the Present Study
+Several implications can be proposed for theory and prac-
+tice improvement. By adopting an ecological framework
+of academic resilience that encompasses peer, teacher,
+and family support, this study deepens our understand-
+ing of to what extent and by which path these social
+supports improve academic achievement by extending to
+children from low-income household in China.
+Practically, to improve low-income household chil-
+dren’s school performance, the following two suggestions
+should be considered carefully: 1) pay more attention
+to family, such as parents oﬀering more diverse support
+and learn how to express emotions to their children; 2)
+provide suggestions to children on how to make friends
+and how to keep healthy friendships, in recognition that
+peers are vital for improving both academic resilience
+and outcomes.
+4.6 Limitations and Future Research
+There are at least two limitations in this research. First,
+because it is based on the secondary data, this study
+is data-driven rather than theory-driven, thus some vi-
+tal information of participants cannot be obtained. In
+addition, this is a cross-sectional design, it can only be
+used to conclude correlational results and cannot ob-
+tain causality eﬀects between variables. Finally, the
+low-income household children were ﬁgured out by their
+own response, while teenagers may have bias perceptions
+toward their family’s economic conditions. Therefore, it
+may have measurement errors in classifying the family
+in poverty.
+In future, more studies should focus on casual eﬀect
+of academic resilience on both its sources and impacts by
+using longitudinal study or experimental study. Mean-
+while, future studies could focus on comparative research
+on minorities and majorities, local and international.
+5. Conclusion
+The present study reports the impact of students’ per-
+ceived teacher, peer, and family support on their aca-
+demic performance as well as examines the mediation ef-
+fectofacademicresiliencebetweenthesesupportandaca-
+demic outcomes using PLS-SEM and the bootstrapping
+technique. This study found that academic resilience
+of children from low-income family is signiﬁcantly inﬂu-
+enced by peer, family, and teacher support, while their
+academic achievements are only signiﬁcant inﬂuenced
+by peer support and academic resilience. Speciﬁcally,
+academic resilience has partial mediation eﬀect between
+peer support and academic achievement, and full me-
+diation eﬀect between teacher support and academic
+achievement.
+This research is supported by ShenZhen philosophy and
+social science planning project (ID:SZ2019D054 )
+Many thanks to the blinded reviewers for their comments.
+int.j.psychol.res |doi: 10.21500/20112084.4480 25
+Low-Income Children and Academic Resilience
+References
+Allan, J., McKenna, J., & Dominey, S. (2014).
+Degrees of resilience: Proﬁling psychological
+resilience and prospective academic achieve-
+ment in university inductees. British Jour-
+nal of Guidance & Counselling ,42(1), 9–25.
+doi:10.1080/03069885.2013.793784.
+Ayala, J., & Manzano, G. (2018). Academic perfor-
+mance of ﬁrst-year university students: The inﬂu-
+ence of resilience and engagement. Higher Educa-
+tion Research & Development ,37(7), 1321–1335.
+doi:10.1080/07294360.2018.1502258.
+Bernstein, B. (1962). Social class, linguistic codes and
+grammatical elements. Language and Speech ,5(4),
+221–240. doi:10.1177/002383096200500405.
+Bronfenbrenner, U. (1979). The ecology of human devel-
+opment. Cambridge: Harvard University Press.
+Chin, W. (2010). How to write up and report PLS anal-
+yses. In V. Esposito, W.W. Chin, J. Henseler,
+& H. Wang (Eds.), Handbook of partial least
+squares: Concepts, methods and applications (pp.
+655–690). Heidelberg, Dordrecht, London, New
+York: Springer.
+Chou, K. (2000). Assessing Chinese adolescents’ so-
+cial support: The multidimensional scale of per-
+ceived social support. Personality and Individual
+Diﬀerences ,28(2), 299–307. doi:10.1016/S0191-
+8869(99)00098-7.
+Datta, P., Cornell, D., & Huang, F. (2017). The
+toxicity of bullying by teachers and other school
+staﬀ.School Psychology Review ,46(4), 335–348.
+doi:10.17105/SPR-2017-0001.V46-4.
+Davis, E., Greenberger, E., Charles, S., Chen, C., Zhao,
+L., & Dong, Q. (2012). Emotion experience and
+regulation in China and the United States: How
+do culture and gender shape emotion responding?
+International Journal of Psychology ,47(3), 230–
+239. doi:10.1080/00207594.2011.626043.
+DeLay, D., Zhang, L., Hanish, L., Miller, C., Fabes, R.,
+Martin, C., & Updegraﬀ, K. (2016). Peer inﬂuence
+on academic performance: A social network analy-
+sis of social-emotional intervention eﬀects. Preven-
+tion Science ,17(8), 903–913. doi:10.1007/s11121-
+016-0678-8.
+Elias, M., & Haynes, N. (2008). Social competence,
+social support, and academic achievement in mi-
+nority, low-income, urban elementary school chil-
+dren.School Psychology Quarterly ,23(4), 474–495.
+doi:10.1037/1045-3830.23.4.474.
+Felsman, J. (1989). Risk and resiliency in childhood:
+The lives of street children. in D. Timothy & C.
+Robert (Eds.), The child in our times (pp. 56–80).
+New York: Mazel Publishers.
+Fornell, C., & Larcker, D. (1981). Evaluating structural
+equation models with unobservable variables andmeasurement error. Journal of Marketing Research ,
+18(1), 39–50. doi:10.2307/3151312.
+Garmezy, N. (1991). Resilience in children’s adap-
+tation to negative life events and stressed en-
+vironments. Pediatric Annals ,20(9), 459–466.
+doi:10.3928/0090-4481-19910901-05.
+Geiger, B. (2017). Sixth graders in Israel recount
+their experience of verbal abuse by teachers in
+the classroom. Child Abuse & Neglect ,63, 95–105.
+doi:10.1016/j.chiabu.2016.11.019.
+Hair, J., Black, W., Babin, B., Anderson, R., & Tatham,
+R. (2010). Multivariate data analysis . Upper
+Saddle River, NJ: Pearson Prentice Hall, Pearson
+Education.
+Hair, J., Hult, G., Ringle, C., & Sarstedt, M. (2017). A
+primer on partial least squares structural equation
+modeling (PLS-SEM) (2nd Edition ed.). Thousand
+Oaks, CA.: Sage Publications Inc.
+Hair, J., Ringle, C., & Sarstedt, M. (2011). PLS-
+SEM: Indeed a silver bullet. Journal of Mar-
+keting Theory and Practice ,19(2), 139–151.
+doi:10.2753/MTP1069-6679190202.
+Hair, J., Sarstedt, M., Hopkins, L., & Kuppelwieser, V.
+(2014). Partial least squares structural equation
+modeling (PLS-SEM): An emerging tool for busi-
+ness research. European Business Review ,26(2),
+106–121. doi:10.1108/EBR-10-2013-0128.
+Henseler, J., Hubona, G., & Ray, P. (2016). Using
+PLS path modeling in new technology research:
+Updated guidelines. Industrial Management &
+Data Systems ,116(2), 2–20. doi:10.1108/IMDS-
+09-2015-0382.
+Hu, L., & Bentler, P. (1995a). Cutoﬀ criteria for ﬁt
+indexes in covariance structure analysis: Conven-
+tional criteria versus new alternatives. Structural
+Equation Modeling: A Multidisciplinary Journal ,
+6(1), 1–55. doi:10.1080/10705519909540118.
+Hu, L., & Bentler, P. (1995b). Evaluating model ﬁt.
+In R.H. Hoyle (Ed.), Structural equation model-
+ing: Concepts, issues, and applications (pp. 77-99).
+Thousand Oaks, CA: Sage Publications, Inc.
+Johnson, B. (2008). Teacher-student relationships
+which promote resilience at school: A micro-
+level analysis of students’ views. British Jour-
+nal of Guidance & Counselling ,36(4), 385–398.
+doi:10.1080/03069880802364528.
+Kline, R. (2010). Principles and practice of structural
+equation modeling . New York, NY: Guilford.
+Li, C., Zhang, Q., & Li, N. (2008). Does so-
+cial capital beneﬁt resilience for left-behind chil-
+dren? An evidence from Mainland China. Chil-
+dren and Youth Services Review ,93, 255–262.
+doi:10.1016/j.childyouth.2018.06.033.
+Li, C., Zhang, Q., & Li, N. (2018). Does so-
+cial capital beneﬁt resilience for left-behind chil-
+dren? An evidence from Mainland China. Chil-
+int.j.psychol.res |doi: 10.21500/20112084.4480 26
+Low-Income Children and Academic Resilience
+dren and Youth Services Review ,93, 255–262.
+doi:10.1016/j.childyouth.2018.06.033.
+Li, H. (2017). The ’secrets’ of Chinese students’ aca-
+demic success: Academic resilience among stu-
+dents from highly competitive academic environ-
+ments.Educational Psychology ,37(8), 1001–1014.
+doi:10.1080/01443410.2017.1322179.
+Li, H., Bottrell, D., & Armstrong, D. (2017). Un-
+derstanding the pathways to resilience: Voices
+from chinese adolescents. Young,26(2), 126–144.
+doi:10.1177/1103308817711532.
+Liew, J., Carlo, G., Streit, C., & Ispa, J. (2018). Parent-
+ing beliefs and practices in toddlerhood as precur-
+sors to self-regulatory, psychosocial, and academic
+outcomes in early and middle childhood in ethni-
+cally diverse low-income families. Social Develop-
+ment,27(4), 891–909. doi:10.1111/sode.12306.
+Liu, J., Bullock, A., Coplan, R., Chen, X., Li, D., &
+Zhou, Y. (2018). Developmental cascade models
+linking peer victimization, depression, and aca-
+demic achievement in Chinese children. British
+Journal of Developmental Psychology ,36(1), 47–
+63. doi:10.1111/bjdp.12212.
+Luthar, S. (1991). Vulnerability and resilience: A study
+of high-risk adolescents. Child Development ,62(3),
+600–616. doi:10.1111/j.1467-8624.1991.tb01555.x.
+Martin, A. (2013). Academic buoyancy and aca-
+demic resilience: Exploring ’everyday’ and ’clas-
+sic’ resilience in the face of academic adversity.
+School Psychology International ,34(5), 488–500.
+doi:10.1177/0143034312472759.
+Martin, A., & Marsh, H. (2006). Academic resilience
+and its psychological and educational correlates:
+A construct validity approach. Psychology in The
+Schools,43, 267–282. doi:10.1002/pits.20149.
+Masten, A. (2001). Ordinary magic: Resilience processes
+indevelopment. American Psychologist ,56(3),227–
+238. doi:10.1037/0003-066X.56.3.227.
+Masten, A., & Coatsworth, J. (1998). The develop-
+ment of competence in favorable and unfavorable
+environments: Lessons from research on successful
+children. American Psychologist ,53(2), 205–220.
+doi:10.1037/0003-066X.53.2.205.
+Metheny, J., McWhirter, E., & O’Neil, M. (2008).
+Measuring perceived teacher support and itsin-
+ﬂuence on adolescent career development. Jour-
+nal of Career Assessment ,16(2), 218–237.
+doi:10.1177/1069072707313198.
+Narayanan, A., & Betts, L. (2014). Bullying be-
+haviours and victimisation experiences among ado-
+lescent students: The role of resilience. Jour-
+nal of Genetic Psychology ,175(2), 134–146.
+doi:10.1080/00221325.2013.834290.
+NBSC. (2018). The yearbook of educational statistics .
+Beijing: The Chinese Statistics Press.
+Nunnally, J., & Bernstein, I. (1994). Psychometric theory(3rd Edition ed.). New York: McGraw-Hill. Inc.
+Pitzer, J., & Skinner, E. (2017). Predictors of
+changes in students’ motivational resilience over
+the school year: The roles of teacher support, self-
+appraisals, and emotional reactivity. International
+Journal of Behavioral Development ,41(1), 15–29.
+doi:10.1177/0165025416642051.
+Ramirez, L., Machida, S., Kline, L., & Huang, L. (2014).
+Low-income Hispanic and Latino high school stu-
+dents’ perceptions of parent and peer academic
+support. Contemporary School Psychology ,18(4),
+214–221. doi:10.1007/s40688-014-0037-3.
+Ringle, C., Wende, S., & Becker, J. (2015). SmartPLS
+3. Bönningstedt: SmartPLS.
+Robinson, M., Raine, G., Robertson, S., Steen, M., &
+Day, R. (2015). Peer support as a resilience build-
+ing practice with men. Journal of Public Mental
+Health,14(4), 196–204. doi:10.1108/jpmh-04-2015-
+0015.
+Sanders, J., Munford, R., & Liebenberg, L.
+(2016). The role of teachers in building
+resilience of at risk youth. International Jour-
+nal of Educational Research ,80, 111–123.
+doi:10.1016/j.ijer.2016.10.002.
+Sanders, J., Munford, R., Thimasarn-Anwar, T., Lieben-
+berg, L., & Ungar, M. (2015). The role of
+positive youth development practices in build-
+ing resilience and enhancing wellbeing for at-
+risk youth. Child Abuse & Neglect ,42, 40–53.
+doi:10.1016/j.chiabu.2015.02.006.
+Sattler, K., & Gershoﬀ, E. (2019). Thresholds
+of resilience and within-and cross-domain aca-
+demic achievement among children in poverty.
+Early Childhood Research Quarterly ,46, 87–96.
+doi:10.1016/j.ecresq.2018.04.003.
+Sirin, S. (2005). Socioeconomic status and academic
+achievement: A meta-analytic review of research.
+Review of Educational Research ,75(3), 417–453.
+doi:10.3102/00346543075003417.
+Stewart, D., & Sun, J. (2004). How can we build re-
+silience in primary school aged children? The im-
+portance of social support from adults and peers
+in family, school and community settings. Asia-
+Paciﬁc Journal of Public Health ,16(1), 37–41.
+doi:10.1177/101053950401600S10.
+Taket, A., Nolan, A., & Stagnitti, K. (2014).
+Family strategies to support and develop re-
+silience in early childhood. Early Years: An
+International Research Journal ,34(3), 289–300.
+doi:10.1080/09575146.2013.877421.
+Theron, L. (2008). Resilience across cultures.
+British Journal of Social Work ,38(2), 218–235.
+doi:10.1093/bjsw/bcl343.
+Theron, L. (2016). The everyday ways that school ecolo-
+gies facilitate resilience: Implications for school
+psychologists. School Psychology International ,
+int.j.psychol.res |doi: 10.21500/20112084.4480 27
+Low-Income Children and Academic Resilience
+37(2), 87–103. doi:10.1177/0143034315615937.
+Ungar, M., Ghazinour, M., & Richter, J. (2013). An-
+nual research review: What is resilience within the
+social ecology of human development? Journal of
+Child Psychology and Psychiatry ,54(4), 348–366.
+doi:10.1111/jcpp.12025.
+Wang, D., Hu, M., & Yin, X. (2017). Positive aca-
+demic emotions and psychological resilience among
+rural-to-urban migrant adolescents in China. So-
+cial Behavior and Personality ,45(10), 1665–1674.
+doi:10.2224/sbp.6382.
+Wang, M., Kiuru, N., Degol, J., & Salmela-Aro, K.
+(2018). Friends, academic achievement, and school
+engagement during adolescence: A social net-
+work approach to peer inﬂuence and selection
+eﬀects.Learning and Instruction ,58, 148–160.
+doi:10.1016/j.learninstruc.2018.06.003.
+Werner, E. (1990). Protective factors and individual
+resilience.InM.Samuel&S.Jack(Eds.), Handbook
+of early childhood intervention (pp. 115-132). New
+York: Cambridge University Press.
+Werner, E., & Ruth, S. (1982). Vulnerable but invincible:
+A longitudinal study of resilient children and youth .
+New York: Adams, Bannister, and Cox.
+White, K. (1982). The relation between socioeconomic
+status and academic achievement. Psychologi-
+cal Bulletin ,91(3), 461–481. doi:10.1037/0033-
+2909.91.3.461.
+Wu, Q., Tsang, B., & Ming, H. (2014). So-
+cial capital, family support, resilience and edu-
+cational outcomes of Chinese migrant children.
+British Journal of Social Work ,44(3), 636–656.
+doi:10.1093/bjsw/bcs139.
+Zimet, G., Dahlem, N., Zimet, S., & Farley, G. (1988).
+The multidimensional scale of perceived social sup-
+port.Journal of Personality Assessment ,52(1),
+30–41. doi:10.1207/s15327752jpa5201_2.6. Appendix
+Scales of this research
+Construct Items
+Academic resilience I would try my best to go to school
+even if I was not feeling very well
+or I had other reasons to stay at
+home.
+I would try my best to ﬁnish even
+the homework I dislike.
+I would try my best to ﬁnish my
+homework, even if it would take me
+quite a long time.
+Teacher support My mathematics teacher always
+asks me to answer questions in
+class.
+My Chinese teacher always asks me
+to answer questions in class.
+My English teacher always asks me
+to answer questions in class.
+My mathematics teacher always
+praises me.
+My Chinese teacher always praises
+me.
+My English teacher always praises
+me.
+Peer support Most of my classmates are nice to
+me.
+My class is in good atmosphere.
+Family support How often do your mother discuss
+your feelings with you?
+How often do your father discuss
+your feelings with you?
+How often do your mother dis-
+cuss your worries and troubles with
+you?
+How often do your father discuss
+your worries and troubles with
+you?
+int.j.psychol.res |doi: 10.21500/20112084.4480 28
