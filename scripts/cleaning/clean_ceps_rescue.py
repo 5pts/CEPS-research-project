@@ -54,21 +54,16 @@ def aggregate_teacher_data(df):
 
     # Define variables to aggregate
     # hr01: Gender, hr02: Age, etc.
-    # NOTE: Actual variable names in Wave 2 teacher data differ (e.g., w2tcha01...).
-    # Disabling specific variable aggregation for now to avoid errors.
-    # We rely on student-reported teacher variables (praise/talk) which are already in student data.
+    # Add praise-related teacher vars if they exist in teacher data (usually they are in student data about teacher)
+    # Teacher data contains teacher's own attributes.
     
     agg_dict = {}
-    # if "hr01" in df.columns: agg_dict["hr01"] = lambda x: x.mode()[0] if not x.mode().empty else np.nan
-    # if "hr02" in df.columns: agg_dict["hr02"] = "mean"
+    if "hr01" in df.columns: agg_dict["hr01"] = lambda x: x.mode()[0] if not x.mode().empty else np.nan
+    if "hr02" in df.columns: agg_dict["hr02"] = "mean"
     
     # Perform aggregation
     if not agg_dict:
-        # Just return unique classes to serve as a linkage bridge if needed, 
-        # though we primarily merge for the variables in agg_dict.
-        # Since agg_dict is empty, this just confirms class existence.
-        print("[INFO] No teacher demographics aggregated (vars not found). Returning unique class list.")
-        return df[["clsids"]].drop_duplicates()
+        return df.drop_duplicates(subset=["clsids"]) # Fallback
 
     grouped = df.groupby("clsids").agg(agg_dict).reset_index()
     print(f"Aggregated Teacher Data: {len(df)} rows -> {len(grouped)} classes")
@@ -118,48 +113,34 @@ def main():
     # 3. Merge Raw Data (Student Centric)
     print("--- Merging Raw Datasets ---")
     merged = stu_df.copy()
-    if "schids" in merged.columns: print("[DEBUG] schids present in initial merged")
-    else: print("[DEBUG] schids MISSING in initial merged")
     
-    # Standardize Linkage Keys immediately
-    if "w2clsids" in merged.columns:
-        if "clsids" in merged.columns:
-            merged = merged.drop(columns=["w2clsids"])
-        else:
-            merged = merged.rename(columns={"w2clsids": "clsids"})
-            
-    if "w2schids" in merged.columns:
-        if "schids" in merged.columns:
-            merged = merged.drop(columns=["w2schids"])
-        else:
-            merged = merged.rename(columns={"w2schids": "schids"})
-            
-    if "schids" in merged.columns: print("[DEBUG] schids present after standardize")
-
     # Merge Parent
     if par_clean is not None:
         merged = pd.merge(merged, par_clean, on="ids", how="left")
-        if "schids" in merged.columns: print("[DEBUG] schids present after parent merge")
         
     # Merge Teacher (via clsids)
     if tea_clean is not None:
-        # Drop schids from teacher data to avoid conflict with student's schids
-        if "schids" in tea_clean.columns:
-            tea_clean = tea_clean.drop(columns=["schids"])
-            
+        # Ensure clsids match type
+        if "w2clsids" in merged.columns:
+            if "clsids" in merged.columns:
+                # If both exist, drop w2clsids to avoid duplication
+                merged = merged.drop(columns=["w2clsids"])
+            else:
+                merged = merged.rename(columns={"w2clsids": "clsids"})
+                
         if "clsids" in merged.columns and "clsids" in tea_clean.columns:
             merged = pd.merge(merged, tea_clean, on="clsids", how="left")
-            if "schids" in merged.columns: print("[DEBUG] schids present after teacher merge")
             
     # Merge School (via schids)
     if sch_clean is not None:
-        # Check sch_clean keys
-        if "schids" not in sch_clean.columns and "w2schids" in sch_clean.columns:
-            sch_clean = sch_clean.rename(columns={"w2schids": "schids"})
-            
+        if "w2schids" in merged.columns:
+             if "schids" in merged.columns:
+                 merged = merged.drop(columns=["w2schids"])
+             else:
+                 merged = merged.rename(columns={"w2schids": "schids"})
+
         if "schids" in merged.columns and "schids" in sch_clean.columns:
             merged = pd.merge(merged, sch_clean, on="schids", how="left")
-            if "schids" in merged.columns: print("[DEBUG] schids present after school merge")
 
     print(f"Merged Raw Shape: {merged.shape}")
 

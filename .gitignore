@@ -1,26 +1,19 @@
-# Data Files (Large/Binary)
-*.dta
 *.zip
-*.rar
+*.dta
 *.parquet
-*.sav
-
-# Python / Environment
+*.pdf
+*.pptx
+*.docx
+*.doc
 __pycache__/
 *.pyc
-.env
-venv/
-env/
-
-# IDE / Editor
-.vscode/
-.idea/
 .DS_Store
 .trae/
-
-# Logs & Temp
-*.log
-*.tmp
-
-# Legacy Archives (Optional: exclude if too large, keeping for now as they are organized)
-# legacy_archive/cleaned/*.parquet
+legacy_archive/
+rescued_data/
+results/
+evaluation/
+ClaudeFig/
+figures/
+Paper_LaTeX/figures/
+!Paper_LaTeX/figures/interaction_plot.png
