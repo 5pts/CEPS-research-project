@@ -1,19 +1,33 @@
-*.zip
+# Data files
 *.dta
+*.zip
 *.parquet
-*.pdf
-*.pptx
-*.docx
-*.doc
+*.sav
+*.xls
+*.xlsx
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# LaTeX build files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+# System files
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
 .trae/
-legacy_archive/
-rescued_data/
-results/
-evaluation/
-ClaudeFig/
-figures/
-Paper_LaTeX/figures/
-!Paper_LaTeX/figures/interaction_plot.png
