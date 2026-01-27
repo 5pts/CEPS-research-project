@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+\title{模型构建说明（严格版）}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{1. 因变量定义}
+教育期望变量来自学生问卷 w2b18，取值 1--10：
+\[
+Y \in \{1,2,3,4,5,6,7,8,9,10\}
+\]
+其中 10 表示“无所谓”，不属于教育路径的有序等级。主模型中将 10 视为非有序响应并剔除，保留 1--9 构成有序因变量。
+
+\section*{2. 自变量与标准化}
+主要自变量包括：
+同辈关系指数（bonding\_idx，横向；w2b0605/0606/0607）、师生关系指数（linking\_idx，纵向；w2b0507/0508/0509 + w2c09，并对相加结果再 z-score）、SES（ses\_pca：父母教育、家庭经济、藏书量、是否有书桌、是否有电脑的 PCA 指数；其中 has\_computer 做 1-值反向处理）、户口类型（hukou\_type）、认知得分（cog\_score，0视为未参加测试）。
+
+对连续变量进行 z 标准化：
+\[
+z(x_i) = \frac{x_i - \bar{x}}{s_x}
+\]
+其中 $\bar{x}$ 为样本均值，$s_x$ 为样本标准差。二分变量 hukou\_type 不标准化。
+
+\section*{3. 主模型：有序Logit}
+对 $k = 1,\dots,8$，有序Logit模型为：
+\[
+P(Y_i \le k \mid x_i) = \Lambda(\theta_k - x_i^\top \beta)
+\]
+其中 $\Lambda(z) = \frac{1}{1+e^{-z}}$，$\theta_k$ 为阈值参数，$\beta$ 为回归系数。
+
+该模型隐含比例优势假设（Proportional Odds, PO），即 $\beta$ 在不同阈值方程中保持一致。
+
+\section*{4. 班级聚类稳健标准误}
+考虑同班学生存在相关性，采用班级聚类稳健标准误：
+\[
+\widehat{V}_{CR} = (X'WX)^{-1}\left(\sum_{g=1}^{G} X_g' u_g u_g' X_g\right)(X'WX)^{-1}
+\]
+其中 $g$ 表示班级，$u_g$ 为得分残差，$X_g$ 为班级内设计矩阵。
+
+\section*{5. 比例优势假设检验}
+使用有序Logit与多项Logit的似然比检验：
+\[
+LR = 2(\ell_{MNLogit} - \ell_{Ordered})
+\]
+若 $p<0.05$，说明PO假设可能不成立。此时建议以多项Logit作为稳健性对照，并解释其与有序Logit结论的一致性与差异。
+
+\section*{6. “无所谓(10)”的处理与敏感性}
+为评估剔除 10 的影响，对 10 组与 1--9 组做均值差异检验：
+\begin{itemize}
+  \item 连续变量：Welch t 检验
+  \item 二分变量：$\chi^2$ 检验
+\end{itemize}
+若差异显著，应在正文中注明：主模型解释对象为“具有明确教育路径的学生”。
+
+\section*{7. 探索性随机森林（非因果解释）}
+随机森林用于探索非线性与变量重要性，不作为因果结论依据。分类目标为 1--9。
+
+\section*{8. 示例代码}
+有序Logit：
+\begin{verbatim}
+from statsmodels.miscmodels.ordinal_model import OrderedModel
+X = df[["bonding_idx_z","linking_idx_z","ses_pca_z",
+        "hukou_type","cog_score_z"]]
+y = df["expect_edu_raw"]  # 1-9
+model = OrderedModel(y, X, distr="logit")
+res = model.fit(method="bfgs", disp=False)
+\end{verbatim}
+
+聚类稳健标准误：
+\begin{verbatim}
+from statsmodels.stats.sandwich_covariance import cov_cluster
+import numpy as np
+cov = cov_cluster(res, df["clsids"])
+se = np.sqrt(np.diag(cov))
+\end{verbatim}
+
+\section*{9. 输出文件}
+主模型与检验结果：results/phase3/ordinal_model_report.txt\\
+随机森林重要性：results/phase3/ordinal_rf_feature_importance.csv\\
+图表：figures/report_phase3/ 与 figures/ordinal_rf/
+
+\end{document}

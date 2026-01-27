@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /b \"c:\\\\Users\\\\13926\\\\Desktop\\\\CEPS数据汇总\")",
+      "Bash(findstr:*)",
+      "Bash(python -c \"\nimport pandas as pd\n\n# 读取数据\ndf = pd.read_csv\\(''rescued_data/merged_rescued_all.csv''\\)\n\nprint\\(''=== ses_self 分布分析 ===''\\)\nprint\\(df[''ses_self''].describe\\(\\)\\)\nprint\\(\\)\nprint\\(''=== 前20个最常见的值 ===''\\)\nprint\\(df[''ses_self''].value_counts\\(\\).head\\(20\\)\\)\nprint\\(\\)\nprint\\(''=== 值的范围分布 ===''\\)\nprint\\(''0-5:'', \\(df[''ses_self''] <= 5\\).sum\\(\\)\\)\nprint\\(''6-100:'', \\(\\(df[''ses_self''] > 5\\) & \\(df[''ses_self''] <= 100\\)\\).sum\\(\\)\\)\nprint\\(''100-2000:'', \\(\\(df[''ses_self''] > 100\\) & \\(df[''ses_self''] <= 2000\\)\\).sum\\(\\)\\)\nprint\\(''>2000:'', \\(df[''ses_self''] > 2000\\).sum\\(\\)\\)\n\")",
+      "Bash(python -c:*)",
+      "Bash(dir:*)",
+      "Bash(xelatex:*)",
+      "Bash(copy \"c:\\\\Users\\\\13926\\\\Desktop\\\\CEPS数据汇总\\\\Gemini_Generated_Image_v76dhdv76dhdv76d.png\" \"c:\\\\Users\\\\13926\\\\Desktop\\\\CEPS数据汇总\\\\Paper_LaTeX\\\\ml_pipeline.png\")",
+      "Bash(python scripts/analysis/plot_rf_importance.py:*)",
+      "Bash(python:*)"
+    ]
+  }
+}

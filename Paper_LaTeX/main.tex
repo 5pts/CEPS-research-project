@@ -7,8 +7,11 @@
 % =============================================
 \usepackage[american]{babel}
 \usepackage{csquotes}
-\DeclareLanguageMapping{american}{american-apa}
-\usepackage{newtxtext,newtxmath} % 使用类 Times New Roman 字体
+%\DeclareLanguageMapping{american}{american-apa}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}
 
 % =============================================
 % 参考文献配置 (APA 7th 标准)
@@ -26,22 +29,20 @@
 % =============================================
 % 论文元数据 (Metadata)
 % =============================================
-\title{Your Paper Title Here}
+\title{School Social Capital and Educational Expectations: Evidence from CEPS}
 % APA 7 student papers do not use a running head
 \author{Your Name}
 \affiliation{Your Institution}
-\course{Course Name}
-\professor{Instructor Name}
-\duedate{Due Date}
+\course{Sociology 101}
+\professor{Prof. Name}
+\duedate{\today}
 
 % 摘要
 \abstract{
-    Write the abstract here. In APA format, the abstract should not be indented.
-    
-    This study uses CEPS data and a GEE model to test whether school social capital compensates for family disadvantage...
+    This study investigates the relationship between school social capital and students' educational expectations using data from the China Education Panel Survey (CEPS). We employ an ordered logit model with cluster-robust standard errors to analyze the impact of peer bonding social capital and teacher-student linking social capital. The results indicate that both peer bonding and teacher-student linking social capital have significant positive effects on students' educational expectations, even after controlling for family socioeconomic status (SES) and cognitive ability. These findings suggest that enhancing school-based social networks can serve as a compensatory mechanism for disadvantaged students.
 }
 
-\keywords{school social capital, educational expectations, compensatory effect, CEPS}
+\keywords{school social capital, educational expectations, ordered logit, CEPS, China}
 
 \begin{document}
 
@@ -53,35 +54,64 @@
 % =============================================
 
 \section{Introduction}
-Start the main text here. The double spacing is automatically applied by the APA class.
-
-\section{Literature Review}
-Prior research on social capital is discussed in \parencite{coleman1988social}. Related work is also reviewed by \textcite{liu2015school}.
+Social capital, defined as resources embedded in social networks, plays a crucial role in human capital formation \parencite{coleman1988social}. In the context of education, school social capital—specifically the relationships among peers (bonding) and between students and teachers (linking)—may influence students' academic aspirations and outcomes. This study uses data from the China Education Panel Survey (CEPS) to examine whether school social capital can compensate for family disadvantage in shaping educational expectations.
 
 \section{Data and Methods}
+
 \subsection{Data Source}
-This study uses CEPS data...
+We use data from the CEPS Wave 2. The analytical sample consists of 9,314 students after excluding missing values and respondents who selected "Doesn't matter" (Code 10) for their educational expectations.
+
+\subsection{Measures}
+The dependent variable is \textit{educational expectation}, measured on an ordinal scale from 1 (stop schooling now) to 9 (doctoral degree). Key independent variables include:
+\begin{itemize}
+    \item \textbf{Bonding Social Capital (peer)}: An index measuring peer relations and support (equal-status, horizontal ties).
+    \item \textbf{Linking Social Capital (teacher-student)}: An index measuring teacher-student relations with authority asymmetry (vertical ties).
+    \item \textbf{Control Variables}: Family SES (PCA index from parent education, family economic status, home books, and household assets), Hukou type (rural/urban), and cognitive ability scores.
+\end{itemize}
 
 \subsection{Statistical Model}
-We use generalized estimating equations (GEE) for analysis \parencite{liang2017gee}.
+Given the ordinal nature of the outcome variable, we employ an Ordered Logit Model (Proportional Odds Model). To account for the nested structure of the data (students within classes), we calculate cluster-robust standard errors by class ID (\texttt{clsids}).
+We test the proportional odds (PO) assumption via a likelihood-ratio test against a multinomial logit model. The PO test is significant ($p<.001$), so we report multinomial logit estimates as a robustness check while retaining ordered logit for interpretability.
 
 \section{Results}
-The results show...
 
-% 插入图片示例
+\subsection{Descriptive Statistics}
+Figure \ref{fig:dist} displays the distribution of educational expectations in the sample. The majority of students expect to achieve at least a bachelor's degree.
+
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{figures/interaction_plot.png}
-    \caption{Interaction effect of student-teacher relations and family SES}
-    \label{fig:interaction}
+    \includegraphics[width=0.8\textwidth]{../figures/report_phase3/expectation_distribution.png}
+    \caption{Distribution of Educational Expectations}
+    \label{fig:dist}
 \end{figure}
 
-\section{Discussion}
-This study confirms...
+\subsection{Regression Results}
+Table \ref{tab:results} presents the results from the ordered logit analysis.
 
-% =============================================
-% 参考文献列表 (自动生成)
-% =============================================
+\begin{table}[h]
+    \centering
+    \caption{Ordered Logit Regression Results for Educational Expectations}
+    \label{tab:results}
+    \begin{tabular}{lcccc}
+        \toprule
+        Variable & Coef. & Robust SE & $z$-value & $p$-value \\
+        \midrule
+        Bonding Index ($z$) & 0.138 & 0.025 & 5.59 & $<.001$ \\
+        Linking Index ($z$) & 0.221 & 0.025 & 9.03 & $<.001$ \\
+        SES (PCA, $z$) & 0.334 & 0.043 & 7.81 & $<.001$ \\
+        Hukou (Rural=1) & 0.111 & 0.049 & 2.27 & .023 \\
+        Cognitive Score ($z$) & 0.565 & 0.028 & 19.99 & $<.001$ \\
+        \bottomrule
+    \end{tabular}
+    \vspace{0.5em}
+    \footnotesize{\textit{Note}: $N=9,314$. Cluster-robust standard errors are used. All continuous predictors are standardized.}
+\end{table}
+
+The results show that both peer bonding ($\beta=0.138, p<.001$) and teacher-student linking social capital ($\beta=0.221, p<.001$) are positively associated with higher educational expectations. SES is significant using the PCA index ($\beta=0.334, p<.001$), and cognitive score remains the strongest predictor ($\beta=0.565$). Hukou status shows a small but significant effect in this model ($\beta=0.111, p=.023$).
+
+\section{Discussion}
+This study confirms the importance of school social capital. The significant positive effects of peer bonding and teacher-student linking suggest that schools can play an active role in fostering high educational aspirations. Future research should explore the interaction effects between social capital and family SES to further test the compensatory hypothesis.
+
 \printbibliography
 
 \end{document}

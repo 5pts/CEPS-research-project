@@ -1,0 +1,54 @@
+数据包简要说明
+
+1. 清洗后数据集
+文件: rescued_data/merged_rescued_all_with_pca_ses.csv
+格式: CSV (UTF-8)
+样本量: 9,827
+变量数: 18
+标识变量: ids (学生), clsids (班级)
+
+2. 主要变量
+expect_edu_raw (w2b18): 教育期望 1-10，10=无所谓
+expect_college: 二分期望，w2b18>=7 记为1
+bonding_idx: 同辈关系指数（横向），题项 w2b0605/w2b0606/w2b0607
+linking_idx: 师生关系指数（纵向），teacher_praise=均值(w2b0507/0508/0509)，teacher_talk=w2c09(1→1,2/3→0)，相加后再z-score
+ses_pca: SES综合指标（PCA：父母受教育、家庭经济、藏书量、是否有书桌、是否有电脑）
+ses_pca_group: SES分组（0=低，1=高）
+ses_self: 旧版SES综合指标（w2a09 + w2be23/w2be25，班级均值填补）
+hukou_type: 户口类型 (0=城市, 1=农村)
+cog_score: 认知测验得分
+teacher_praise / teacher_talk: 作为 linking_idx 的构成项
+
+3. 清洗流程简述
+数据来源为学生、家长、教师、学校四表。清洗核心步骤如下：
+1) 合并多源数据，保留学生为主键。
+2) 因变量选用 w2b18（全员必答），避免跳答题带来的大比例缺失。
+3) SES (PCA): 由父母教育、家庭经济、藏书量与家庭资产做主成分综合。
+   ses_self 仅保留为旧版对照，不再作为主模型变量。
+   has_computer 与其他 SES 指标呈负相关，因此在 PCA 中做 1-值反向处理。
+4) 认知: cog_score=0 视为未参加测试，作为缺失处理。
+4) 户口: 依据 w2a18 映射，缺失使用学校位置和班级众数补齐。
+5) 师生关系: 教师表聚合到班级层级；w2b0507/0508/0509 与 w2c09 合成 linking_idx，并对相加结果再标准化。
+6) 同辈关系: w2b0605/0606/0607 合成 bonding_idx，并进行标准化处理。
+7) SES: w2a09 与 w2be23/w2be25 合成，缺失用班级均值补齐。
+
+4. 缺失值概况
+认知变量 cog_score 在将 0 视为未参加测试后存在缺失。
+teacher_praise 与 teacher_talk 仍有少量缺失，但在 linking_idx 中已通过均值填补。
+完整统计表见 results/phase3/data_summary_stats.csv。
+
+5. 描述性图表
+图表路径: figures/report_phase3/
+- expectation_distribution.png
+- dist_bonding_idx.png
+- dist_linking_idx.png
+- dist_ses_self.png（旧版）
+- interaction_plot_pca.png
+
+7. PCA报告
+results/phase3/ses_pca_report.txt
+- dist_cog_score.png
+- correlation_matrix.png
+
+6. 一句话描述
+该数据集保留了 1-9 等级的教育期望信息，并包含师生关系、同伴氛围、家庭背景与认知等关键变量，适合进行有序模型分析与探索性机器学习对照。

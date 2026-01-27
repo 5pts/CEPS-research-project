@@ -1,0 +1,19 @@
+SES PCA Report
+================
+Inputs: parent_edu_max, family_econ, home_books, has_desk, has_computer
+
+Note: has_computer inverted (1 - value) due to negative SES correlation.
+
+Explained variance ratio:
+  PC1: 0.4409
+  PC2: 0.1683
+  PC3: 0.1498
+  PC4: 0.1364
+  PC5: 0.1046
+
+PC1 loadings:
+  parent_edu_max: 0.4580
+  family_econ: 0.4189
+  home_books: 0.5107
+  has_desk: 0.4863
+  has_computer: 0.3427

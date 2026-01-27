@@ -1,10 +1,10 @@
-Merged Data Quality Report (Rescue V2.0 - OFFICIAL)
+Merged Data Quality Report (Rescue V2.1 - OFFICIAL)
 =================================================
 Total Rows: 9827
 Linkage Keys Preserved: ids, clsids, schids
 Strategies Applied:
  - Teacher Data: Aggregated by Class (Mode/Mean)
- - SES: Imputed with Parent Income & Class Mean
+ - SES: Imputed with Parent Econ (w2be23/w2be25) & Class Mean
  - Hukou: Imputed with School Location
 
 Missing Values After Rescue:
@@ -12,10 +12,10 @@ ids                 0
 clsids              0
 expect_college      0
 expect_edu_raw      0
+bonding_idx         0
 linking_idx         0
 teacher_praise     11
 teacher_talk      170
-bonding_idx         0
 ses_self            0
 hukou_type          0
 cog_score           0

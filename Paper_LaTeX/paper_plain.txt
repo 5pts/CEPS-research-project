@@ -1,0 +1,58 @@
+Your Paper Title Here
+Author: Your Name
+Affiliation: Your Institution
+Course: Course Name
+Professor: Instructor Name
+Due Date: Due Date
+
+Abstract
+Write the abstract here. In APA format, the abstract should not be indented.
+This study uses CEPS data and an ordered logit (proportional odds) model with class-clustered robust standard errors to test whether school social capital compensates for family disadvantage...
+
+Keywords
+school social capital, educational expectations, compensatory effect, CEPS
+
+1 Introduction
+Start the main text here. The double spacing is automatically applied by the APA class.
+
+2 Research Questions and Hypotheses
+- H1 (Main Effect): Teacher Linking and Peer Bonding positively predict educational expectations (controlling SES, hukou, cognition).
+- H2 (Compensatory Effect):
+  - H2a: Linking benefits low-SES students more than high-SES students (Linking × SES < 0).
+  - H2b: Bonding benefits low-SES students more than high-SES students (Bonding × SES < 0).
+  - H2c: Linking benefits rural hukou students more than urban hukou students (Linking × Rural > 0).
+- H3 (Exploratory): Compare the magnitude of compensatory effects—Which is stronger, Bonding or Linking?
+
+2 Literature Review
+Prior research on social capital is discussed in Coleman (1988). Related work is also reviewed by Liu (2015).
+
+3 Data and Methods
+3.1 Data Source
+This study uses CEPS Wave 2 data. Analytical sample ≈ 9,314 students after excluding responses coded 10 = “无所谓” (non-ordinal). Class IDs (clsids) are used for clustered SE.
+
+3.2 Statistical Model
+- Outcome: expect_edu_raw ∈ {1,…,9} (10 = “无所谓” excluded).
+- Predictors:
+  - Bonding index (peer climate): mean of w2b0605/0606/0607, z-scored.
+  - Linking index (teacher–student): teacher_praise = mean(w2b0507/0508/0509); teacher_talk = w2c09 (1→1, 2/3→0); each z, summed, re-z.
+  - SES (PCA composite): parent education, family econ, books, desk, computer (inverted), first PC, z-scored.
+  - Hukou (0 urban, 1 rural), cognitive score (0 treated as missing, rest z).
+- Model: Ordered logit \(P(Y \le k|x)=\Lambda(\theta_k - x'\beta)\), k=1..8; clustered SE by clsids.
+- PO check: LR test vs multinomial logit (PO rejected; ordered logit kept for interpretability; multinomial/partial PO as robustness).
+- Interactions: Bonding×SES, Linking×SES, Linking×Rural.
+
+4 Results
+- Main effects (template): Linking ≈ 0.22 (p<0.001), Bonding ≈ 0.14 (p<0.001), SES ≈ 0.33, Hukou ≈ 0.11 (p≈0.02), Cognitive ≈ 0.56 (p<0.001).
+- Interactions: Bonding×SES positive (MLE p≈0.015; clustered p≈0.052 trend), Linking×SES ns, Linking×Rural positive but ns (p≈0.16).
+- Nonlinearity: Spline suggests Linking may be nonlinear (p≈0.005); Bonding shows no nonlinearity.
+- Selection: 10 = “无所谓” group differs on SES/cog/bonding/linking/hukou; external validity limited to 1–9.
+
+Figure 1. Distribution of educational expectations
+Figure file: figures/report_phase3/expectation_distribution.png
+
+5 Discussion
+Discuss whether evidence supports compensatory vs advantage accumulation: Bonding shows advantage accumulation; Linking is neutral/weakly compensatory for rural; PO violation caveat; nonlinearity caveat; cross-sectional causality limits; perceived (not network) measures.
+
+References
+Coleman, J. S. (1988). Social capital in the creation of human capital.
+Liu, X. (2015). School social capital and educational outcomes.

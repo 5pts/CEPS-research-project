@@ -1,0 +1,14 @@
+Threshold (Spline) Check for Ordered Logit
+=========================================
+Spline df=4, degree=3. Compare linear vs spline via LR test.
+
+bonding_idx_z:
+  LLF linear: -15597.165
+  LLF spline: -15597.058
+  LR stat: 0.214, df=3, approx p~0.9753
+
+linking_idx_z:
+  LLF linear: -15561.633
+  LLF spline: -15555.255
+  LR stat: 12.756, df=3, approx p~0.0052
+
